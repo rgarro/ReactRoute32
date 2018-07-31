@@ -1,0 +1,25 @@
+{
+  "name": "reactroute32",
+  "version": "1.0.0",
+  "description": "Simple Reactjs Anchor Location Router, executes callback on location hash change that matches declared routes.",
+  "main": "ReactRoute32.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgarro/ReactRoute32.git"
+  },
+  "keywords": [
+    "Reactjs",
+    "Router",
+    "anchor",
+    "router"
+  ],
+  "author": "Rolando Garro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgarro/ReactRoute32/issues"
+  },
+  "homepage": "https://github.com/rgarro/ReactRoute32#readme"
+}
