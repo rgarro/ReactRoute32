@@ -1,33 +1,41 @@
 # ReactRoute32
 Simple Reactjs Anchor Location Router, executes callback on location hash change that matches declared routes.
 
-
+Goodfellas hidding death bodies on evergreen containers ...
 
 Buy Me a Beer, Starbucks Expresso or send a cheese burguer ... [Paypal](https://www.paypal.me/gospelOfLuke/25).
 
 ```html
-
 <ul>
-   <li><a class="nav" href="#/caribean/">Caribean</a></li>
-   <li><a class="nav" href="#/centralvalley/">Central Valley</a></li>  
+   <li><a class="nav" href="#/siquirres/">Siquirres</a></li>
+   <li><a class="nav" href="#/guapiles/">Guapiles</a></li>  
 </ul>
-<script type="text/javascript">
-			$(document).ready(function(){
+<script>
+import ReactRoute32 from "./lib/ReactRoute32";
 
-				var router = new Route32({
-					'automatic':true
-                });
+initRoutes() {
+  this.router = new ReactRoute32();
+  this.router.add(
+    "#/Siquirres/",
+    function() {
+      this.setState({ current_route: "SIQUIRRES" });
+    }.bind(this)
+  );
+  this.router.add(
+    "#/Guapiles/",
+    function() {
+      this.setState({ current_route: "GUAPILES" });
+    }.bind(this)
+  );
+  //dont drink and drive
+  this.router.drive();
+}
 
-				router.add('#/caribean/',function(){
-			      // your navigation silently driving to your callback
-				});    
+</script>
 
-				router.drive();    
-			});
-</script>		
 
 ```
 
 
 
-[![We were Goodfellas!](http://www.prensalibre.cr/files/noticias/images/detail/721578111_ruta32.jpg)]
+[![We were Goodfellas!](https://raw.githubusercontent.com/rgarro/ReactRoute32/master/389892.jpg)]
