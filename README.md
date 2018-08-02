@@ -15,7 +15,7 @@ Buy Me a Beer, Starbucks Expresso or send a cheese burguer ... [Paypal](https://
    <li><a class="nav" href="/#/guapiles/">Guapiles</a></li>  
 </ul>
 <script>
-import ReactRoute32 from "ReactRoute32";
+import ReactRoute32 from "reactroute32";
 
 initRoutes() {
   this.router = new ReactRoute32();
