@@ -6,7 +6,7 @@ Simple Reactjs Anchor Location Router, executes callback on location hash change
 Goodfellas hidding death bodies on evergreen containers. CodeSandbox mobsters...
 [![We were Goodfellas!](https://raw.githubusercontent.com/rgarro/ReactRoute32/master/389892.jpg)]
 
-Buy Me a Beer, Starbucks Expresso or send a cheese burguer ... [Paypal](https://www.paypal.me/gospelOfLuke/25).
+Did you like it? send me funds,help me to pay my MIT major ... [Paypal](https://www.paypal.me/gospelOfLuke/25).
 
 #### npm i reactroute32
 ```html
